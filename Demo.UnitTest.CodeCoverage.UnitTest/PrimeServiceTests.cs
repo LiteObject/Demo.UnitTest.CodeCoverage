@@ -1,11 +1,12 @@
 ﻿using Demo.UnitTest.CodeCoverage.Library;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Xunit;
 using Assert = Xunit.Assert;
 
-namespace Demo.UnitTest.CodeCoverage.UnitTest.MSBuild
+namespace Demo.UnitTest.CodeCoverage.UnitTest
 {
-    [TestClass]
+    /// <summary>
+    /// Source: https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
+    /// </summary>
     public class PrimeServiceTests
     {
         readonly PrimeService _primeService;
